@@ -1,0 +1,153 @@
+<<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Happy Birthday Mirudula 💜</title>
+
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link href=<link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Cinzel:wght@600&family=Playfair+Display:wght@600&family=Permanent+Marker&family=Caveat:wght@700&family=Great+Vibes&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+
+    <!-- Background -->
+    <div class="stars"></div>
+
+    <!-- INTRO -->
+
+    <section id="intro">
+
+        <div class="intro-content">
+
+            <h3>✨ Birthday Special ✨</h3>
+
+            <h1>Happy Birthday</h1>
+
+            <h2>Mirudula 💜</h2>
+
+            <p>
+
+                21 special people
+
+                are waiting to celebrate with you.
+
+            </p>
+
+            <button id="startBtn">
+
+                Open My Surprise 💜
+
+            </button>
+
+        </div>
+
+    </section>
+
+    <!-- MAIN -->
+
+    <section id="main" class="hidden">
+
+        <header>
+
+            <h1>
+
+                Birthday Wishes
+
+            </h1>
+
+            <p>
+
+                Tap any card to unlock a surprise.
+
+            </p>
+
+            <div class="progress-container">
+
+                <div id="progress"></div>
+
+            </div>
+
+            <p id="progressText">
+
+                0 / 21 Unlocked
+
+            </p>
+
+        </header>
+
+        <!-- Cards will be created automatically -->
+
+        <div id="cardContainer"></div>
+
+    </section>
+
+    <!-- POPUP -->
+
+    <div id="popup" class="hidden">
+
+        <div class="popup-card">
+
+            <button id="closePopup">
+
+                ✕
+
+            </button>
+
+            <img id="popupImage">
+
+            <h2 id="popupName"></h2>
+
+            <div id="popupMessage"></div>
+
+        </div>
+
+    </div>
+
+    <!-- Final Letter -->
+
+    <section id="finalSection" class="hidden">
+
+        <div class="final-card">
+
+            <h1>
+
+                💜 One Last Surprise 💜
+
+            </h1>
+
+            <p>
+
+                Congratulations!
+
+                You unlocked every birthday wish.
+
+            </p>
+
+            <button id="openLetter">
+
+                Read Final Letter 💌
+
+            </button>
+
+        </div>
+
+    </section>
+
+    <script src="messages.js"></script>
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
